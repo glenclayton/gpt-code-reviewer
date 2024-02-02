@@ -14,7 +14,7 @@ config = yaml.safe_load(open("config.yaml", "r", encoding="utf-8"))
 console = Console()
 openai.api_key = os.getenv("OPENAI_API_KEY")
 
-
+# this is a comment
 def chat():
     messages = []
 
