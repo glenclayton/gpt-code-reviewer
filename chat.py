@@ -4,6 +4,9 @@ import yaml
 
 from rich.console import Console
 from rich.markdown import Markdown
+from dotenv import load_dotenv
+
+load_dotenv()
 
 
 from prompts import get_system_prompt, get_review_prompt

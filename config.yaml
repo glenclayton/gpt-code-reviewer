@@ -1,5 +1,5 @@
 repositories: [
-  "gpt-classifier",
+  "gpt-classifer",
   "gpt-code-reviewer"
 ]
 user: "glenclayton"
