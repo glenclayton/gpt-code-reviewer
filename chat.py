@@ -4,6 +4,9 @@ import yaml
 
 from rich.console import Console
 from rich.markdown import Markdown
+from dotenv import load_dotenv
+
+load_dotenv()
 
 
 from prompts import get_system_prompt, get_review_prompt
@@ -14,7 +17,7 @@ config = yaml.safe_load(open("config.yaml", "r", encoding="utf-8"))
 console = Console()
 openai.api_key = os.getenv("OPENAI_API_KEY")
 
-
+# this is a comment
 def chat():
     messages = []
 

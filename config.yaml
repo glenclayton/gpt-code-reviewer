@@ -1,0 +1,6 @@
+repositories: [
+  "gpt-classifer",
+  "gpt-code-reviewer"
+]
+user: "glenclayton"
+model_engine: "gpt-4"
